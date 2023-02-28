@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
   extends: [
     'plugin:react/recommended',
@@ -9,6 +9,7 @@ module.exports = {
     'prettier',
     'react-app',
     'react-app/jest',
+    'plugin:storybook/recommended',
   ],
   overrides: [],
   parserOptions: {
