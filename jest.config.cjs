@@ -4,4 +4,7 @@ module.exports = {
   testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['./.jest/jest-setup.cjs'],
   collectCoverage: true,
+  moduleNameMapper: {
+    '^@react-vite/(.*)$': '<rootDir>/src/$1',
+  },
 }

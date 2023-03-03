@@ -1,5 +1,5 @@
 import React, { type FC, useState } from 'react'
-import TestButton from './components/TestButton'
+import TestButton from '@react-vite/components/TestButton'
 
 const App: FC = () => {
   const [count, setCount] = useState(0)
